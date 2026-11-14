@@ -34,3 +34,7 @@
 
 - Split Auth and Enquiries controllers into index (routes), handler, service, DA and sql files with try / catch in each layer
 - Errors are logged once with the exact function name
+
+### V 1.0.8
+
+- All sql.js queries written in the same format: return block with one column per line
