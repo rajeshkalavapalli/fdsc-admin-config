@@ -38,3 +38,7 @@
 ### V 1.0.8
 
 - All sql.js queries written in the same format: return block with one column per line
+
+### V 1.0.9
+
+- Automatic retry while the Azure database wakes up from pause
