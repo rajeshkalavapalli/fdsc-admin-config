@@ -1,3 +1,6 @@
+// SQL for the enquiries list, summary, history and follow-up updates.
+// Query text only: each entry returns the SQL string, and enquiryDA.js runs it (sql.NAME()).
+
 // Filters are optional: NULL means "any".
 const WHERE = `
     WHERE (@Status IS NULL OR e.Status = @Status)

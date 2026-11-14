@@ -1,3 +1,6 @@
+// SQL for admins, sign in, forgot-password OTPs and the audit trail.
+// Query text only: each entry returns the SQL string, and authDA.js runs it (sql.NAME()).
+
 module.exports = {
     GET_ADMIN_BY_USERNAME: () => `
         SELECT AdminId, UserName, Name, PasswordHash

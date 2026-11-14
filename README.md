@@ -29,3 +29,8 @@
 
 - Added repeat enquiry history table and submit enquiry procedure
 - Added enquiry history api for the details panel
+
+### V 1.0.7
+
+- Split Auth and Enquiries controllers into index (routes), handler, service, DA and sql files with try / catch in each layer
+- Errors are logged once with the exact function name
